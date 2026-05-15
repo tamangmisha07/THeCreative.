@@ -1,1 +1,80 @@
+Testing Plan – Prototype Version 1
+
+Game Tittle:
+CybShield 
+
+Date
+15 May 2026
+
+Testing Goal
+Check whether the prototype works correctly and whether users can understand and complete the first cyber-safety challenge.
+
+Testing Question | Yes/No | Notes / Evidence 
+
+Does the prototype open or start correctly? 
+ Yes 
+ HTML file opened successfully in browser 
+ Is the welcome/title screen clear? 
+ Yes 
+ Game title is visible and readable 
+Are the instructions easy to understand? 
+ Yes 
+ Instructions use simple language
+
+Is the first cyber-safety challenge visible? 
+Yes 
+Challenge appears below instructions 
+
+Are the answer choices clear? 
+ Yes 
+ Buttons are large and readable 
+
+Does the correct answer show correct feedback? 
+ Yes 
+ Success message appears after correct choice 
+
+ Does the wrong answer show helpful feedback?
+ Yes 
+ User receives explanation and retry message 
+Does the feedback explain the cyber-safety lesson? 
+ Yes  
+Feedback explains safe online behaviour |
+
+Is there a reward, score, star or success message? 
+ Yes 
+Star reward message appears 
+Is the design suitable for the target audience? 
+ Yes 
+ Colours, font size and buttons are suitable for students |
+
+
+
+Testing Outcome – What Worked Well?
+
+- Prototype opened correctly in the browser
+- Buttons worked correctly when clicked
+- Feedback messages appeared after user choices
+- Cyber-safety lesson was easy to understand
+- Layout was simple and readable
+
+Testing Outcome – What Needs Improvement?
+- Add more challenges and levels
+- Improve background design and animations
+- Add sound effects and scoring system
+- Make feedback more interactive
+
+
+Improvements for Prototype Version 2
+- Add multiple cyber-safety challenges
+- Include a score counter
+- Add badges or achievement rewards
+- Improve visual design and accessibility
+- Add a restart button and level progression
+
+
+Evidence Uploaded
+- Prototype screenshots uploaded to GitHub
+- prototype-v1.html uploaded
+- Testing notes completed
+- Feedback screenshots uploaded
 
