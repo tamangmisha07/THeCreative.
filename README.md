@@ -24,7 +24,11 @@ Project progress,
  Meeting Discussion – May 12
 On May 12, our group held a meeting on WhatsApp to discuss the game idea and assignment tasks. Every member actively participated in the discussion and completed their own research before sharing ideas with the group.
 
-In first week, Day1 Yosheph did our first presentation. 
+ Week 1 Progress,
+Day 1,
+ Yosheph presented our first presentation.
+ The group discussed the game concept and cyber-security topic.
+
 Day2 I setup the GitHub account and We assigned responsibilities to each group member. 
 In second week, Day1 we research about age specific game. We prepare for the persentation about game concept. We also research about the game development tools.
 Day 2, we made our first frame which is welcome page. In welcome page, we made how to play button, start button, feedback and we also added scores, rewards and we can choose our hero as well.
