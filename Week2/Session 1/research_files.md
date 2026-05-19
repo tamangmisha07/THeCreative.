@@ -17,11 +17,7 @@ its something that you possess physically or digitally (mobile applications, har
 3.	Inherence factor:
 Something you are (biometrics like facial recognition, fingerprint, iris scan etc.)
 
-
-
-Evidence of research:
-  
- 2FA methods, its weaknesses and uses:
+  2FA methods, its weaknesses and uses:
 2FA method	How it works	Weaknesses	Real-life use
 SMS OTP	Code send by text message	SIM swap scams, weak signals	Instagram, banking apps
 Authenticator apps	App generates login code	Phone loss can lock users out	Gmail, discord, GitHub
