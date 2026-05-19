@@ -4,6 +4,12 @@ Game name: CybShield
 We are students working together to an educational cyber-security game project.
 
 Group members and roles,
+ Name | Role 
+| Pawan | Designer |
+| Yosheph | Research Leader |
+| Priksha | Coordinator |
+| Misha | Project Leader |
+| Krishna Sah | Team Member |
 
 
 About the game,
