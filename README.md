@@ -6,8 +6,8 @@ hi i'm priksha and i am the coordinator.
 Hi I'm Misha and I am the Project Leader.
 hi i am krishna sah
 Our game title will be cybshield. 
-The game is for people age 10 to 15.
-Our aim is to design an educational cyber game so we are using the two athentication factor. 
+The game is for children age group 10 to 15.
+Our aim is to design an educational cyber game so we are using the two factor athentication. 
 Today may 12, we had meeting on whatsapp and we discuss about the game and assignment everyone was very active and everyone did their own research after we discuss about what we gonna do.
 Day1 First we did presentation. 
 Day2 I setup the GitHub account and We assigned responsibilities to each group member. 
