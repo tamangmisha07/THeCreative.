@@ -9,7 +9,7 @@ Group members and roles,
  Yosheph : Research Leader 
  Priksha : Coordinator 
  Misha : Project Leader 
- Krishna Sah : Team Member 
+ Krishna Sah : Meeting manager
 
 
 About the game,
