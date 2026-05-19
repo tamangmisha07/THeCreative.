@@ -70,7 +70,7 @@ Tools Used
 - GitHub
 
 Target Audience
-Children aged 10–15 years old**
+Children aged 10–15 years old
 
 
   
