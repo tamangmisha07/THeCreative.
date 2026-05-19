@@ -61,6 +61,14 @@ The welcome page includes:
 - Feedback after answers
 - Cyber-safety learning experience
 - Two-Factor Authentication awareness
+
+Tools Used
+- HTML
+- CSS
+- JavaScript
+- Visual Studio Code
+- GitHub
+
   
 
 
