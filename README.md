@@ -6,7 +6,7 @@ Hello i am Pawan i am Deginer.
 I'm yosheph i am the research leader.
 hi i'm priksha and i am the coordinator.
 Hi I'm Misha and I am the Project Leader.
-hi i am krishna sah
+hi i am krishna sah and I am meeting manager.
 Our game title will be cybshield. 
 The game is for children age group 10 to 15.
 Our aim is to design an educational cyber game so we are using the two factor athentication. 
