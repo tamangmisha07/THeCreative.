@@ -40,5 +40,14 @@ Day 1,
  We prepared our presentation about the game concept.
  We researched game development tools such as HTML, CSS, JavaScript, Scratch, and Canva.
 
-Day 2, we made our first frame which is welcome page. In welcome page, we made how to play button, start button, feedback and we also added scores, rewards and we can choose our hero as well.
-When we click on how to play button, it shows all the instruction to play a game.
+Day 2,
+We created the first frame of our game, which is the Welcome Page.
+
+The welcome page includes:
+- Start Button
+- How to Play Button
+- Score and Reward System
+- Feedback Section
+- Hero Selection Option
+
+
