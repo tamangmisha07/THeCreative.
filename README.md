@@ -51,6 +51,16 @@ The welcome page includes:
  Hero Selection Option
 
  When the player clicks the How to Play button, instructions appear explaining how to play the game clearly and simply.
+ 
+ Features of CybShield
+- Educational cyber-security quiz game
+- Interactive gameplay
+- Child-friendly design
+- Multiple levels
+- Rewards and score system
+- Feedback after answers
+- Cyber-safety learning experience
+- Two-Factor Authentication awareness
   
 
 
