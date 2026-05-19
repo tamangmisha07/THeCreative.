@@ -14,6 +14,12 @@ About the game,
 CybShield is an educational cyber-security game designed for children aged 10 to 15 years old.
 The aim of the game is to teach young players about online safety and the importance of Two-Factor Authentication (2FA) through interactive challenges, quiz questions, rewards, and feedback.
 
+The game helps players learn:
+What Two-Factor Authentication is
+Why online security is important
+How to stay safe from hackers and scams
+How to make smart cyber-security decisions
+
 
 Today may 12, we had meeting on whatsapp and we discuss about the game and assignment everyone was very active and everyone did their own research after we discuss about what we gonna do.
 In first week, Day1 Yosheph did our first presentation. 
