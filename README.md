@@ -44,10 +44,13 @@ Day 2,
 We created the first frame of our game, which is the Welcome Page.
 
 The welcome page includes:
-- Start Button
-- How to Play Button
-- Score and Reward System
-- Feedback Section
-- Hero Selection Option
+ Start Button
+ How to Play Button
+ Score and Reward System
+ Feedback Section
+ Hero Selection Option
+
+ When the player clicks the How to Play button, instructions appear explaining how to play the game clearly and simply.
+  
 
 
