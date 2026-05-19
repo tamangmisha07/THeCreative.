@@ -4,11 +4,7 @@ Game name: CybShield
 We are students working together to an educational cyber-security game project.
 
 Group members and roles,
-Hello i am Pawan i am Deginer. 
-I'm yosheph i am the research leader.
-hi i'm priksha and i am the coordinator.
-Hi I'm Misha and I am the Project Leader.
-hi i am krishna sah and I am meeting manager.
+
 
 About the game,
 CybShield is an educational cyber-security game designed for children aged 10 to 15 years old.
