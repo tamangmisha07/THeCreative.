@@ -20,8 +20,10 @@ Why online security is important
 How to stay safe from hackers and scams
 How to make smart cyber-security decisions
 
+Project progress,
+ Meeting Discussion – May 12
+On May 12, our group held a meeting on WhatsApp to discuss the game idea and assignment tasks. Every member actively participated in the discussion and completed their own research before sharing ideas with the group.
 
-Today may 12, we had meeting on whatsapp and we discuss about the game and assignment everyone was very active and everyone did their own research after we discuss about what we gonna do.
 In first week, Day1 Yosheph did our first presentation. 
 Day2 I setup the GitHub account and We assigned responsibilities to each group member. 
 In second week, Day1 we research about age specific game. We prepare for the persentation about game concept. We also research about the game development tools.
