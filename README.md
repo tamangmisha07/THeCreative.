@@ -1,7 +1,7 @@
 Group name: THeCreative
 Group ID: Group E or Group 6 
 Game name: CybShield
-We are students. We are making group projects. so our group is groupE-group6  Our group name is PKMPY.
+We are students working together to an educational cyber-security game project.
 Hello i am Pawan i am Deginer. 
 I'm yosheph i am the research leader.
 hi i'm priksha and i am the coordinator.
