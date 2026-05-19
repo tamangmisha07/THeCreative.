@@ -17,11 +17,11 @@ The application uses large buttons, stars, shields, badges, and simple icons tha
  
 How It Holds Attention
 Duolingo keeps users engaged using:
-•	streak systems 
-•	XP points 
-•	short learning sessions 
-•	progress tracking 
-•	positive motivational messages 
+ streak systems 
+ XP points 
+ short learning sessions 
+ progress tracking 
+ positive motivational messages 
 
 The lessons are intentionally short to reduce boredom and encourage users to return daily.
 
@@ -29,13 +29,13 @@ Feedback and Reward System
 The platform uses badges, unlockable rewards, celebratory animations, and encouraging feedback after each completed task. This creates a sense of achievement and motivates users to continue learning.
 
 From Duolingo, CybShield will apply:
-•	educational UX design 
-•	motivation systems 
-•	badges and XP rewards 
-•	progress bars 
-•	positive feedback messages 
-•	simple readable layouts 
-•	child-friendly colors and icons 
+ educational UX design 
+ motivation systems 
+ badges and XP rewards 
+ progress bars 
+ positive feedback messages 
+	simple readable layouts 
+	child-friendly colors and icons 
 These features will help make cybersecurity learning enjoyable for children aged 10–15.
 
 2. Among Us UX Research
@@ -51,11 +51,11 @@ The game uses bold and simple buttons with arrows, task indicators, and warning 
 
 How It Holds Attention
 Among Us maintains player engagement through:
-•	suspense 
-•	uncertainty 
-•	mission-based gameplay 
-•	fast interaction loops 
-•	curiosity and problem-solving 
+ suspense 
+	uncertainty 
+	mission-based gameplay 
+	fast interaction loops 
+	curiosity and problem-solving 
 
 Players remain interested because they constantly need to make decisions and complete objectives.
 
@@ -63,21 +63,21 @@ Feedback and Reward System
 The game provides satisfaction through mission completion, social achievement, and successful teamwork. Completing tasks gives players a sense of progress and accomplishment.
 
 From Among Us, CybShield will apply:
-•	gameplay-driven learning 
-•	mission-based challenge systems 
-•	suspenseful cyber-safety scenarios 
-•	interactive tasks 
-•	futuristic cyber-themed backgrounds 
-•	simple task-focused interface design 
+	gameplay-driven learning 
+	mission-based challenge systems 
+ suspenseful cyber-safety scenarios 
+	interactive tasks 
+	futuristic cyber-themed backgrounds 
+	simple task-focused interface design 
 These features will help transform cybersecurity education into an interactive adventure rather than a traditional quiz.
 
 Conclusion
 The research showed that both Duolingo and Among Us successfully engage younger audiences through strong UX design principles. Duolingo provides inspiration for educational motivation and reward systems, while Among Us provides inspiration for interactive gameplay and mission design.
 
 By combining these two styles, CybShield aims to create:
-•	a fun and engaging learning experience 
-•	a safe and accessible interface 
-•	motivating rewards and progression 
-•	interactive cybersecurity missions for children aged 10–15 
+ a fun and engaging learning experience 
+	a safe and accessible interface 
+	motivating rewards and progression 
+	interactive cybersecurity missions for children aged 10–15 
 
 This combination will help users learn important cybersecurity concepts, such as two-factor authentication and online safety, in a way that feels enjoyable and memorable rather than educational or repetitive.
