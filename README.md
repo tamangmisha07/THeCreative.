@@ -12,8 +12,9 @@ hi i am krishna sah and I am meeting manager.
 
 About the game,
 CybShield is an educational cyber-security game designed for children aged 10 to 15 years old.
+The aim of the game is to teach young players about online safety and the importance of Two-Factor Authentication (2FA) through interactive challenges, quiz questions, rewards, and feedback.
 
-Our aim is to design an educational cyber game so we are using the two factor athentication. 
+
 Today may 12, we had meeting on whatsapp and we discuss about the game and assignment everyone was very active and everyone did their own research after we discuss about what we gonna do.
 In first week, Day1 Yosheph did our first presentation. 
 Day2 I setup the GitHub account and We assigned responsibilities to each group member. 
