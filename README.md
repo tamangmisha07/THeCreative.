@@ -12,3 +12,4 @@ Today may 12, we had meeting on whatsapp and we discuss about the game and assig
 In first week, Day1 Yosheph did our first presentation. 
 Day2 I setup the GitHub account and We assigned responsibilities to each group member. 
 In second week, Day1 we research about age specific game. We prepare for the persentation about game concept. We also research about the game development tools.
+Day 2, we made our first frame which is welcome page. In welcome page, we made how to play button, start button, feedback and we also added scores, rewards and we can choose our hero as well.
