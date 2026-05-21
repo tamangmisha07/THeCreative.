@@ -10,16 +10,17 @@ Game name: *CybShield*
 Here are the group members name and roles mention:
 
  Name |          Role 
+
+ **Misha**: Project Leader
  
- Pawan :          Designer 
+ **Pawan** : Designer/Developer
  
- Yosheph : Research Leader 
+ **Priksha** : Coordinator
+
+ **Yosheph** : Researcher
+
+ **Krishna** : Meeting Organiger
  
- Priksha : Coordinator 
- 
- Misha : Project Leader 
- 
- Krishna Sah : Meeting manager
 
 About the game,
 CybShield is an educational cyber-security game designed for children aged 10 to 15 years old.
