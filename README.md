@@ -49,7 +49,7 @@ Day 2,
  Responsibilities were assigned to each group member.
  The team planned the project structure and workflow.
 
-Week 2 Progress,
+**Week 2 Progress**,
 Day 1,
  The group researched games suitable for the age group 10–15.
  We prepared our presentation about the game concept.
