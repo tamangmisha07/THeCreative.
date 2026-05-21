@@ -11,15 +11,15 @@ Here are the group members name and roles mention:
 
  Name |          Role 
 
- **Misha**: Project Leader
+ **Misha**: *Project Leader*
  
- **Pawan** : Designer/Developer
+ **Pawan** : *Designer/Developer*
  
- **Priksha** : Coordinator
+ **Priksha** : *Coordinator*
 
- **Yosheph** : Researcher
+ **Yosheph** : *Researcher*
 
- **Krishna** : Meeting Organiger
+ **Krishna** : *Meeting Organiger*
  
 
 About the game,
