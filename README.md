@@ -68,6 +68,10 @@ The welcome page includes:
  Hero Selection Option
 
  When the player clicks the How to Play button, instructions appear explaining how to play the game clearly and simply.
+
+ **Week 3 progress**
+
+ 
  
  **Features of CybShield**
 - Educational cyber-security quiz game
