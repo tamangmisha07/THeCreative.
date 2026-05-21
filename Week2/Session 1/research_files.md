@@ -13,11 +13,14 @@ If we have 2FA enabled in our apps or websites, then even when somebody tries to
 
 In General there are three factors in 2FA:
 1.	Knowledge factor:
+ 
  meaning something you know ( like passwords, pins or patterns)
 
 3.	Possession factor: 
+
 its something that you possess physically or digitally (mobile applications, hardware keys, or SMS codes)
 4.	Inherence factor:
+
 Something you are (biometrics like facial recognition, fingerprint, iris scan etc.)
 
   2FA methods, its weaknesses and uses:
