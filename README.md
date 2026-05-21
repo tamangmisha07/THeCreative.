@@ -3,9 +3,12 @@
 Group ID:Group E or Group 6 
 
 Game name: *CybShield*
-We are students working together to an educational cyber-security game project.
+![Project image](<img width="494" height="155" alt="Screenshot 2026-05-08 160851" src="https://github.com/user-attachments/assets/9130cc22-7c3d-42fb-921d-bff06bbb4490" />
+)
 
-Group members and roles,
+
+
+Here are the group members and roles,
  Name : Role 
  Pawan : Designer 
  Yosheph : Research Leader 
