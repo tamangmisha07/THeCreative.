@@ -39,7 +39,7 @@ How to make smart cyber-security decisions
  Meeting Discussion – May 12
 On May 12, our group held a meeting on WhatsApp to discuss the game idea and assignment tasks. Every member actively participated in the discussion and completed their own research before sharing ideas with the group.
 
-Week 1 Progress,
+**Week 1 Progress**,
 Day 1,
  Yosheph presented our first presentation.
  The group discussed the game concept and cyber-security topic.
