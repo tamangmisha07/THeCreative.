@@ -33,7 +33,7 @@ Why online security is important
 How to stay safe from hackers and scams
 How to make smart cyber-security decisions
 
-Project progress:
+**Project progress**:
 
 ![gif](https://miro.medium.com/1*5YZ0iRIg34qXgH5ja5nNbA.gif)
  Meeting Discussion – May 12
