@@ -67,7 +67,7 @@ The welcome page includes:
 
  When the player clicks the How to Play button, instructions appear explaining how to play the game clearly and simply.
  
- Features of CybShield
+ **Features of CybShield**
 - Educational cyber-security quiz game
 - Interactive gameplay
 - Child-friendly design
