@@ -9,12 +9,16 @@ Game name: *CybShield*
 
 Here are the group members name and roles mention:
 
- Name :           Role 
+ Name |          Role 
  
  Pawan :          Designer 
+ 
  Yosheph : Research Leader 
+ 
  Priksha : Coordinator 
+ 
  Misha : Project Leader 
+ 
  Krishna Sah : Meeting manager
 
 About the game,
