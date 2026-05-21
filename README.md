@@ -39,7 +39,8 @@ How to make smart cyber-security decisions
  Meeting Discussion – May 12
 On May 12, our group held a meeting on WhatsApp to discuss the game idea and assignment tasks. Every member actively participated in the discussion and completed their own research before sharing ideas with the group.
 
-**Week 1 Progress**,
+**Week 1 Progress**
+
 Day 1,
  Yosheph presented our first presentation.
  The group discussed the game concept and cyber-security topic.
@@ -49,7 +50,8 @@ Day 2,
  Responsibilities were assigned to each group member.
  The team planned the project structure and workflow.
 
-**Week 2 Progress**,
+**Week 2 Progress**
+
 Day 1,
  The group researched games suitable for the age group 10–15.
  We prepared our presentation about the game concept.
@@ -85,12 +87,15 @@ The welcome page includes:
 - GitHub
 
 **Target Audience**
+
 Children aged 10–15 years old
 
 **Learning Objective**
+
 The purpose of CybShield is to educate children about cyber-security and online safety in a fun and interactive way.
 
 **GitHub Repository**
+
 Repository Link:  
 https://github.com/tamangmisha07/pkmpy
 
