@@ -77,7 +77,7 @@ The welcome page includes:
 - Cyber-safety learning experience
 - Two-Factor Authentication awareness
 
-Tools Used
+**Tools Used**
 - HTML
 - CSS
 - JavaScript
