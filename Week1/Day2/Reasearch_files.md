@@ -27,6 +27,6 @@ Types of 2FAs:
 -	Email verification: 2FA email verification examples include concise, time-sensitive codes or magic links sent to a user’s registered email after they enter their password
 
  -	Push notification: it provide a secure, one tap method to authorize logins by sending an instant prompt to a users mobile device.
--	 
--	Biometrics: Biometric 2FA (Two-Factor Authentication) uses unique physical or behavioral characteristics, "something you are" as the second layer of security after a password. Common examples include fingerprint scans, facial recognition (FaceID), iris scans, and voice recognition. These methods provide high security and convenience for accessing devices and apps
+  
+ -	Biometrics: Biometric 2FA (Two-Factor Authentication) uses unique physical or behavioral characteristics, "something you are" as the second layer of security after a password. Common examples include fingerprint scans, facial recognition (FaceID), iris scans, and voice recognition. These methods provide high security and convenience for accessing devices and apps
 
