@@ -22,8 +22,9 @@ Here are the group members name and roles mention:
  **Krishna** : *Meeting Organiger*
  
 
-About the game,
-CybShield is an educational cyber-security game designed for children aged 10 to 15 years old.
+About the game:
+
+**CybShield** is an educational cyber-security game designed for children aged **10 to 15** years old.
 The aim of the game is to teach young players about online safety and the importance of Two-Factor Authentication (2FA) through interactive challenges, quiz questions, rewards, and feedback.
 
 The game helps players learn:
