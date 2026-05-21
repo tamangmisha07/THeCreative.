@@ -9,7 +9,7 @@ Game name: *CybShield*
 
 Here are the group members name and roles mention:
 
- Name |          Role 
+ Name :         Role 
 
  **Misha**: *Project Leader*
  
