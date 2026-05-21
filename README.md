@@ -3,12 +3,12 @@
 Group ID:Group E or Group 6 
 
 Game name: *CybShield*
-![Project image](<img width="494" height="155" alt="Screenshot 2026-05-08 160851" src="https://github.com/user-attachments/assets/9130cc22-7c3d-42fb-921d-bff06bbb4490" />
-)
+![](https://www.google.com/imgres?q=image%20of%20group%20project&imgurl=https%3A%2F%2Fimg.freepik.com%2Ffree-vector%2Fcoworking-design-concept-with-group-people-working-team-making-common-project-illustration_1284-29095.jpg%3Fsemt%3Dais_hybrid%26w%3D740%26q%3D80&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Fvectors%2Fgroup-project-illustration&docid=rqj51JuE_hUz7M&tbnid=brWIKTW3k71BlM&vet=12ahUKEwj_5tDqxsmUAxXaW0EAHaUyARkQnPAOegQIEhAB..i&w=740&h=563&hcb=2&ved=2ahUKEwj_5tDqxsmUAxXaW0EAHaUyARkQnPAOegQIEhAB)
 
 
 
-Here are the group members and roles,
+Here are the group members name and roles mention:
+
  Name : Role 
  Pawan : Designer 
  Yosheph : Research Leader 
