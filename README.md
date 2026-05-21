@@ -84,7 +84,7 @@ The welcome page includes:
 - Visual Studio Code
 - GitHub
 
-Target Audience
+**Target Audience**
 Children aged 10–15 years old
 
 Learning Objective
