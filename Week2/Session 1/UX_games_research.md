@@ -1,25 +1,25 @@
 UX Research on Existing Games for CybShield
 
-Introduction
+Introduction:
 
 As part of the development of CybShield. our group researched existing games and applications to understand how successful platforms attract, engage, and educate users. Since CybShield is a cybersecurity awareness game designed for children aged 10–15, it was important to study games that use strong user experience (UX) design, motivation systems, and interactive gameplay.
 The two main inspirations selected were Duolingo and Among Us because both successfully engage younger audiences through simple interfaces, rewards, and interactive experiences.
 
 1. Duolingo UX Research
 
-Target Users
+Target Users:
 
 Duolingo is mainly targeted at users aged 13–30, including students and young learners. The platform is designed to make education feel enjoyable and less stressful through gamification and positive reinforcement.
 
-Colours and Backgrounds
+Colours and Backgrounds:
 
 Duolingo uses bright and friendly colours such as green, white, and light grey. These colours create a welcoming and positive environment for users. The clean background design also improves readability and helps users focus on lessons without distractions.
  
-Icons and Buttons
+Icons and Buttons:
 
 The application uses large buttons, stars, shields, badges, and simple icons that are easy to understand. Rounded buttons and colorful visuals improve accessibility and make navigation easier for younger users.
  
-How It Holds Attention
+How It Holds Attention:
 
 Duolingo keeps users engaged using:
 
@@ -31,7 +31,7 @@ Duolingo keeps users engaged using:
 
 The lessons are intentionally short to reduce boredom and encourage users to return daily.
 
-Feedback and Reward System
+Feedback and Reward System:
 
 The platform uses badges, unlockable rewards, celebratory animations, and encouraging feedback after each completed task. This creates a sense of achievement and motivates users to continue learning.
 
