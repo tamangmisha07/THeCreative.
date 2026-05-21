@@ -16,22 +16,23 @@ Does the first cyber-safety challenge work?
 - yes
 
 Does any new challenge/interaction work?	
-- in progress
+- yes
+
 
 Does the correct answer show useful feedback?		
 - in progress
 
 Does the wrong answer show helpful feedback?
-- in progress
+- in progress 
 
 Does the feedback teach a cyber-safety lesson?		
-- yes,
+- Shows it is an incorrect answer but not the cyber safety lesson yet.
 
 Is there a reward, score, star, badge or progress message?	
--in progress
+- yes
 
 Is the prototype suitable for the target audience?
-- the colors are children friendly and engaging 
+- the colors are children friendly and engaging, and the instructions are easy to understand.
 
 What must be improved before next week?	
-- while the instructions are clear, it could be improved by reducing the word count and enlarging the font.
+- while the instructions are clear, it could be improved by reducing the word count and enlarging the font. the instructions after the first interface can be improved.
