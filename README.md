@@ -33,7 +33,9 @@ Why online security is important
 How to stay safe from hackers and scams
 How to make smart cyber-security decisions
 
-Project progress,
+Project progress:
+
+![gif](https://miro.medium.com/1*5YZ0iRIg34qXgH5ja5nNbA.gif)
  Meeting Discussion – May 12
 On May 12, our group held a meeting on WhatsApp to discuss the game idea and assignment tasks. Every member actively participated in the discussion and completed their own research before sharing ideas with the group.
 
