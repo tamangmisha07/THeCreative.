@@ -10,6 +10,8 @@
 
  We are team THeCreative, this is an educational game development project. This game will gone a teach the user all information about 2FA or Multi-factor Authentication. In this game player will learn every things by playing the Quizz game.
 
+ ![game-logo](https://github.com/tamangmisha07/THeCreative./blob/main/Week1/Day%201/Screenshot%202026-05-08%20160851.png?raw=true)
+
 Group ID:Group E or Group 6 
 
 Game name: *CybShield*
