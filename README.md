@@ -87,10 +87,10 @@ The welcome page includes:
 **Target Audience**
 Children aged 10–15 years old
 
-Learning Objective
+**Learning Objective**
 The purpose of CybShield is to educate children about cyber-security and online safety in a fun and interactive way.
 
-GitHub Repository
+**GitHub Repository**
 Repository Link:  
 https://github.com/tamangmisha07/pkmpy
 
