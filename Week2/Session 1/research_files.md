@@ -19,17 +19,11 @@ In General there are three factors in 2FA:
 3.	Possession factor: 
 
 its something that you possess physically or digitally (mobile applications, hardware keys, or SMS codes)
+
 4.	Inherence factor:
 
 Something you are (biometrics like facial recognition, fingerprint, iris scan etc.)
 
-  2FA methods, its weaknesses and uses:
-2FA method	How it works	Weaknesses	Real-life use
-SMS OTP	Code send by text message	SIM swap scams, weak signals	Instagram, banking apps
-Authenticator apps	App generates login code	Phone loss can lock users out	Gmail, discord, GitHub
-Email verification	Code link send to email	Unsafe if email is hacked	Password resets, logins
-Push notifications	User approves login	MFA fatigue spam attacks	Microsoft, banking apps
-biometrics	Fingerprint or face ID login	Sensor errors, privacy concerns	Smartphones, banking apps
 
 Research shows, some MFA(multi-factor Authentication) are stronger than others, especially against phishing attacks.
 
