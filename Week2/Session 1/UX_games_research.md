@@ -23,11 +23,11 @@ How It Holds Attention
 
 Duolingo keeps users engaged using:
 
- streak systems 
- XP points 
- short learning sessions 
- progress tracking 
- positive motivational messages 
+ - streak systems 
+ - XP points 
+ - short learning sessions 
+ - progress tracking 
+ - positive motivational messages 
 
 The lessons are intentionally short to reduce boredom and encourage users to return daily.
 
@@ -37,13 +37,13 @@ The platform uses badges, unlockable rewards, celebratory animations, and encour
 
 From Duolingo, CybShield will apply:
 
- educational UX design 
- motivation systems 
- badges and XP rewards 
- progress bars 
- positive feedback messages 
- simple readable layouts 
- child-friendly colors and icons 
+ - educational UX design 
+ - motivation systems 
+ - badges and XP rewards 
+ - progress bars 
+ - positive feedback messages 
+ - simple readable layouts 
+ - child-friendly colors and icons 
  
 These features will help make cybersecurity learning enjoyable for children aged 10–15.
 
