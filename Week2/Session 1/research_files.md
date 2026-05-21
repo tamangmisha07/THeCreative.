@@ -3,18 +3,21 @@
 -	Password + second verification = stronger security
 for example:
 username: ………..(most of the time, everyone knows what your username is)
+
 password:…………..(it can be hacked through phishing, third party data breaches etc.)
 
 Basically if anyone can login through this username and password to our account.
 That is why we need Two-Factor Authentication .
+
 If we have 2FA enabled in our apps or websites, then even when somebody tries to enter into our account, they will need to further verify through either OTP or emails or biometrics, etc. and if they cannot verify they won’t be able to access the account. This is the Two-Factor Authentication or Two-Step verification.
 
 In General there are three factors in 2FA:
 1.	Knowledge factor:
  meaning something you know ( like passwords, pins or patterns)
-2.	Possession factor: 
+
+3.	Possession factor: 
 its something that you possess physically or digitally (mobile applications, hardware keys, or SMS codes)
-3.	Inherence factor:
+4.	Inherence factor:
 Something you are (biometrics like facial recognition, fingerprint, iris scan etc.)
 
   2FA methods, its weaknesses and uses:
