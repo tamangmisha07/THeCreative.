@@ -85,12 +85,7 @@ The welcome page includes:
 
  **Week 3 progress**
  
- Prototype development
- Design improvements
- Testing process
- GitHub uploads
- Future game features
-And we all gave  our group presentation
+
 
 
  
