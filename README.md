@@ -84,10 +84,13 @@ The welcome page includes:
  When the player clicks the How to Play button, instructions appear explaining how to play the game clearly and simply.
 
  **Week 3 progress**
- 
 
-
-
+our group focused on developing Prototype Version 2 of our game, CybShield.
+We improved the overall game design by adding better colours, clearer buttons, readable text, and a more child-friendly layout suitable for children aged 10–15.
+We also tested the prototype to make sure the buttons, quiz questions, feedback system, and rewards were working properly. 
+After testing, we discussed improvements and future game features such as adding more levels, animations, sounds, badges, and extra cyber-security challenges. 
+Our group also uploaded updated files, screenshots, and evidence to GitHub to show our progress and teamwork. 
+At the end of the session, all group members participated in delivering the group presentation and explained our game concept, target audience, cyber-security topic, prototype features, and future development plans.
  
  
  **Features of CybShield**
