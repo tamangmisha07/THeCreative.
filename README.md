@@ -84,6 +84,14 @@ The welcome page includes:
  When the player clicks the How to Play button, instructions appear explaining how to play the game clearly and simply.
 
  **Week 3 progress**
+ 
+ Prototype development
+ Design improvements
+ Testing process
+ GitHub uploads
+ Future game features
+And we all gave  our group presentation
+
 
  
  
