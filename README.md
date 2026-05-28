@@ -15,8 +15,6 @@
 Group ID:Group E or Group 6 
 
 Game name: *CybShield*
-![](https://img.freepik.com/free-vector/coworking-design-concept-with-group-people-working-team-making-common-project-illustration_1284-29095.jpg?semt=ais_hybrid&w=740&q=80)
-
 
 
 Here are the group members name and roles mention:
