@@ -97,6 +97,8 @@ At the end of the session, all group members participated in delivering the grou
 
 **Week 4 progress**
 
+Day 1
+
  **Features of CybShield**
 - Educational cyber-security quiz game
 - Interactive gameplay
