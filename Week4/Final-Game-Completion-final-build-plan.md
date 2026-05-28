@@ -1,4 +1,4 @@
-Prompt for sound
+**Prompt for sound**
 
 In this game everything is ok, but in the welcome page add their character selecting option. 
 
