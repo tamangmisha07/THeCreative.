@@ -4,10 +4,10 @@ In this game everything is ok, but in the welcome page add their character selec
 
 There should be 5 character selecting option, character name and color are:
 
-Priksha: pink
-Pawan: Blue
-Misha: Purple
-Yoshaph: Green
+Priksha: pink,
+Pawan: Blue,
+Misha: Purple,
+Yoshaph: Green,
 Krishna: yellow 
 
 There should be unique sound in every character selection. Add 3D animation of each character like "free fire "game. 
