@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CybShield Ultimate Game</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Trebuchet MS',sans-serif;
+}
+
+body{
+background:linear-gradient(to bottom,#041C32,#0A2647,#144272);
+color:white;
+overflow-x:hidden;
+animation:bgMove 10s linear infinite;
+}
+
+@keyframes bgMove{
+0%{background-position:0 0;}
+100%{background-position:1000px 0;}
+}
+
+/* ===== WELCOME ===== */
+
+#welcomeScreen{
+width:100%;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+background:
+linear-gradient(rgba(0,0,50,0.7),rgba(0,0,50,0.7)),
+url('https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1470&auto=format&fit=crop');
+background-size:cover;
+background-position:center;
+}
+
+.game-box{
+background:rgba(255,255,255,0.12);
+backdrop-filter:blur(10px);
+border-radius:30px;
+padding:30px;
+width:100%;
+max-width:950px;
+text-align:center;
+border:3px solid rgba(255,255,255,0.2);
+box-shadow:0 0 25px rgba(0,0,0,0.5);
+animation:fadeIn 1s ease;
+}
+
+.logo{
+font-size:70px;
+font-weight:900;
+margin-bottom:15px;
+text-shadow:
+3px 3px 0 #000,
+6px 6px 10px rgba(0,0,0,0.7);
+}
+
+.green{
+color:#00ff66;
+}
+
+.yellow{
+color:#FFD700;
+}
+
+.tagline{
+font-size:22px;
+margin-bottom:25px;
+}
+
+.ninja-box{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-bottom:25px;
+}
+
+.ninja{
+width:80px;
+height:80px;
+border-radius:20px;
+background:rgba(255,255,255,0.2);
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:40px;
+animation:bounce 2s infinite;
+}
+
+.ninja:nth-child(2){
+animation-delay:.3s;
+}
+
+.ninja:nth-child(3){
+animation-delay:.6s;
+}
+
+@keyframes bounce{
+0%,100%{
+transform:translateY(0);
+}
+50%{
+transform:translateY(-10px);
+}
+}
+
+.level-select{
+margin-top:20px;
+}
+
+.level-select select{
+padding:12px;
+font-size:18px;
+border:none;
+border-radius:10px;
+margin-top:10px;
+}
+
+/* ===== CHARACTER ===== */
+
+.character-select{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+.char-btn{
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:10px;
+padding:15px;
+border:none;
+border-radius:20px;
+background:white;
+cursor:pointer;
+transition:0.3s;
+font-weight:bold;
+color:#0A2647;
+}
+
+.char-btn img{
+width:100px;
+height:100px;
+object-fit:cover;
+border-radius:50%;
+border:4px solid #FFD700;
+}
+
+.char-btn:hover{
+transform:scale(1.05);
+background:#FFD700;
+}
+
+.char-btn.active{
+background:#00d26a;
+color:white;
+}
+
+/* ===== BUTTON ===== */
+
+.btn{
+border:none;
+padding:15px 30px;
+border-radius:15px;
+font-size:20px;
+font-weight:bold;
+cursor:pointer;
+margin:10px;
+transition:0.3s;
+}
+
+.start-btn{
+background:#00d26a;
+color:white;
+box-shadow:0 5px 0 #008c47;
+animation:pulse 2s infinite;
+}
+
+.start-btn:hover{
+transform:scale(1.05);
+}
+
+.how-btn{
+background:white;
+color:#0A2647;
+}
+
+@keyframes pulse{
+0%{transform:scale(1);}
+50%{transform:scale(1.05);}
+100%{transform:scale(1);}
+}
+
+/* ===== GAME ===== */
+
+#gameScreen{
+display:none;
+min-height:100vh;
+padding:20px;
+background:
+linear-gradient(rgba(0,0,30,0.8),rgba(0,0,30,0.8)),
+url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop');
+background-size:cover;
+}
+
+.top-bar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:20px;
+}
+
+.level-badge,
+.reward-box,
+.timer-box,
+.life-box{
+background:rgba(255,255,255,0.15);
+padding:15px 20px;
+border-radius:15px;
+font-size:20px;
+}
+
+.progress{
+width:100%;
+height:18px;
+background:#ccc;
+border-radius:10px;
+overflow:hidden;
+margin-bottom:20px;
+}
+
+.progress-fill{
+height:100%;
+width:0%;
+background:#00ff66;
+transition:0.5s;
+}
+
+.quiz-container{
+max-width:850px;
+margin:auto;
+background:rgba(255,255,255,0.12);
+backdrop-filter:blur(10px);
+border-radius:30px;
+padding:30px;
+border:2px solid rgba(255,255,255,0.2);
+animation:fadeIn 0.5s ease;
+}
+
+.character-title{
+text-align:center;
+font-size:30px;
+margin-bottom:15px;
+color:#FFD700;
+}
+
+.question{
+font-size:28px;
+margin-bottom:25px;
+line-height:1.5;
+}
+
+.options{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+}
+
+.option-btn{
+padding:15px;
+border:none;
+border-radius:15px;
+font-size:18px;
+cursor:pointer;
+background:#f5f5f5;
+color:#0A2647;
+font-weight:bold;
+transition:0.3s;
+}
+
+.option-btn:hover{
+transform:scale(1.03);
+background:#d6e6ff;
+}
+
+.message{
+margin-top:20px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+line-height:1.7;
+}
+
+.next-btn{
+margin-top:20px;
+display:none;
+background:#FFD700;
+color:black;
+}
+
+/* ===== MODAL ===== */
+
+.modal{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,0.8);
+display:none;
+justify-content:center;
+align-items:center;
+padding:20px;
+z-index:1000;
+}
+
+.modal-content{
+background:white;
+color:black;
+padding:30px;
+border-radius:25px;
+max-width:600px;
+width:100%;
+}
+
+.modal-content h2{
+margin-bottom:15px;
+color:#0A2647;
+}
+
+.modal-content ul{
+margin-left:20px;
+line-height:2;
+}
+
+.close-btn{
+margin-top:20px;
+background:#00d26a;
+color:white;
+}
+
+/* ===== ANIMATION ===== */
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* ===== MOBILE ===== */
+
+@media(max-width:700px){
+
+.logo{
+font-size:45px;
+}
+
+.question{
+font-size:22px;
+}
+
+.options{
+grid-template-columns:1fr;
+}
+
+.btn{
+width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- ===== WELCOME ===== -->
+
+<div id="welcomeScreen">
+
+<div class="game-box">
+
+<div class="logo">
+<span class="green">C</span>yb
+<span class="yellow">S</span>hield
+</div>
+
+<div class="tagline">
+Learn Cyber Security & 2FA With Fun Ninja Adventures!
+</div>
+
+<div class="ninja-box">
+<div class="ninja">🥷</div>
+<div class="ninja">🛡️</div>
+<div class="ninja">🔐</div>
+</div>
+
+<h3>Select Difficulty</h3>
+
+<div class="level-select">
+
+<select id="difficulty">
+<option value="easy">Easy</option>
+<option value="medium">Medium</option>
+<option value="hard">Hard</option>
+</select>
+
+</div>
+
+<h3 style="margin-top:25px;">
+Choose Your Character
+</h3>
+
+<div class="character-select">
+
+<button class="char-btn active"
+onclick="selectCharacter('Misha 🥷',this)">
+<img src="https://i.pinimg.com/736x/9e/21/8f/9e218f2b03820e5a6e60bb8b998954c0.jpg">
+<span>Misha 🥷</span>
+</button>
+
+<button class="char-btn"
+onclick="selectCharacter('Priksha ⚔️',this)">
+<img src="https://i.pinimg.com/564x/12/ff/e5/12ffe5ae74e9fde4386b95d6564059a8.jpg">
+<span>Priksha ⚔️</span>
+</button>
+
+<button class="char-btn"
+onclick="selectCharacter('Pawan 🔥',this)">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ICDfDqlfkiOpGG7DNrkLRuBWlaiCn9P8Lg&s">
+<span>Pawan 🔥</span>
+</button>
+
+<button class="char-btn"
+onclick="selectCharacter('Krishna 🛡️',this)">
+<img src="https://preview.redd.it/yuji-itadori-fanart-final-version-v0-ufj5fa0d8fdg1.jpeg?auto=webp&s=c8e0bbd724072a9c6a102a70afbf8784e8f6cf58">
+<span>Krishna 🛡️</span>
+</button>
+
+<button class="char-btn"
+onclick="selectCharacter('Yosheph ⚡',this)">
+<img src="https://i.pinimg.com/736x/d7/21/ae/d721aeb766e16b3b10e3d27fddea472f.jpg">
+<span>Yosheph ⚡</span>
+</button>
+
+</div>
+
+<button class="btn how-btn"
+onclick="openGuide()">
+How To Play
+</button>
+
+<button class="btn start-btn"
+onclick="startGame()">
+START GAME
+</button>
+
+</div>
+
+</div>
+
+<!-- ===== GAME ===== -->
+
+<div id="gameScreen">
+
+<div class="top-bar">
+
+<div class="level-badge">
+Level:
+<span id="levelNumber">1</span>
+</div>
+
+<div class="level-badge">
+Difficulty:
+<span id="selectedDifficulty">Easy</span>
+</div>
+
+<div class="reward-box">
+Reward: रु
+<span id="reward">0</span>
+</div>
+
+<div class="timer-box">
+⏳ Time:
+<span id="timer">15</span>
+</div>
+
+<div class="life-box">
+❤️ Lives:
+<span id="lives">3</span>
+</div>
+
+</div>
+
+<div class="progress">
+<div class="progress-fill" id="progressFill"></div>
+</div>
+
+<div class="quiz-container">
+
+<div class="character-title"
+id="characterTitle">
+Ninja Mission
+</div>
+
+<div id="characterFace" style="
+font-size:120px;
+text-align:center;
+margin-bottom:20px;
+animation:bounce 2s infinite;
+transition:0.4s;
+">
+😎
+</div>
+
+<div class="question"
+id="question">
+Loading...
+</div>
+
+<div class="options"
+id="options"></div>
+
+<div class="message"
+id="message"></div>
+
+<center>
+
+<button class="btn next-btn"
+id="nextBtn"
+onclick="nextQuestion()">
+Next Level
+</button>
+
+</center>
+
+</div>
+
+</div>
+
+<!-- GUIDE -->
+
+<div class="modal" id="guideModal">
+
+<div class="modal-content">
+
+<h2>🎮 How To Play</h2>
+
+<ul>
+<li>Select your ninja character.</li>
+<li>Choose Easy, Medium, or Hard mode.</li>
+<li>Answer cybersecurity & 2FA questions.</li>
+<li>Learn how Two-Factor Authentication protects accounts.</li>
+<li>Correct answers give rewards.</li>
+<li>Wrong answers reduce lives.</li>
+<li>Complete all levels to become Cyber Ninja Master!</li>
+</ul>
+
+<button class="btn close-btn"
+onclick="closeGuide()">
+Close
+</button>
+
+</div>
+
+</div>
+
+<!-- AUDIO -->
+
+<audio id="buttonSound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+<audio id="characterSound" src="https://assets.mixkit.co/active_storage/sfx/2018/2018-preview.mp3"></audio>
+<audio id="correctSound" src="https://assets.mixkit.co/active_storage/sfx/2000/2000-preview.mp3"></audio>
+<audio id="wrongSound" src="https://assets.mixkit.co/active_storage/sfx/2955/2955-preview.mp3"></audio>
+<audio id="victorySound" src="https://assets.mixkit.co/active_storage/sfx/1435/1435-preview.mp3"></audio>
+
+<script>
+
+/* ===== QUESTIONS ===== */
+
+const easyQuestions = [
+
+{
+character:"🌱 Easy Level 1",
+question:"What does OTP stand for?",
+options:[
+"One Time Password",
+"Online Transfer Password",
+"Open Test Password",
+"Only Text Password"
+],
+answer:"One Time Password",
+fact:"✅ OTP means One Time Password. It is a temporary code used in 2FA to protect your account."
+},
+
+{
+character:"🌱 Easy Level 2",
+question:"Should you share your OTP with anyone?",
+options:[
+"No",
+"Yes",
+"Sometimes",
+"Only Friends"
+],
+answer:"No",
+fact:"✅ Never share your OTP. Banks and apps never ask for your OTP."
+},
+
+{
+character:"🌱 Easy Level 3",
+question:"Why is 2FA safer than only a password?",
+options:[
+"It adds extra security",
+"It makes internet faster",
+"It changes screen color",
+"It removes passwords"
+],
+answer:"It adds extra security",
+fact:"✅ 2FA adds a second security step, making hacking much harder."
+}
+
+];
+
+const mediumQuestions = [
+
+{
+character:"⚔️ Medium Level 1",
+question:"Which is the best example of 2FA?",
+options:[
+"Password + OTP",
+"Only Password",
+"Only Fingerprint",
+"Username Only"
+],
+answer:"Password + OTP",
+fact:"✅ Real 2FA uses two different methods like password + OTP."
+},
+
+{
+character:"⚔️ Medium Level 2",
+question:"What should you do if you receive an OTP you did not request?",
+options:[
+"Ignore it and secure account",
+"Share it online",
+"Send it to friends",
+"Use it quickly"
+],
+answer:"Ignore it and secure account",
+fact:"✅ Unexpected OTPs may mean someone is trying to access your account."
+},
+
+{
+character:"⚔️ Medium Level 3",
+question:"Which app is commonly used for 2FA codes?",
+options:[
+"Google Authenticator",
+"Calculator",
+"Gallery",
+"Camera"
+],
+answer:"Google Authenticator",
+fact:"✅ Authenticator apps generate secure login codes for 2FA."
+}
+
+];
+
+const hardQuestions = [
+
+{
+character:"🔥 Hard Level 1",
+question:"Why are authenticator apps safer than SMS OTPs?",
+options:[
+"They can resist SIM swap attacks",
+"They use more battery",
+"They need internet always",
+"They remove passwords"
+],
+answer:"They can resist SIM swap attacks",
+fact:"✅ Authenticator apps are safer because hackers cannot easily steal codes through SIM swapping."
+},
+
+{
+character:"🔥 Hard Level 2",
+question:"What is the main goal of 2FA?",
+options:[
+"Verify identity using two methods",
+"Make phones slower",
+"Remove usernames",
+"Disable passwords"
+],
+answer:"Verify identity using two methods",
+fact:"✅ 2FA confirms your identity using two different verification methods."
+},
+
+{
+character:"🔥 Hard Level 3",
+question:"Which option is the strongest 2FA method?",
+options:[
+"Security Key + Password",
+"Only Password",
+"Only OTP",
+"Username + PIN"
+],
+answer:"Security Key + Password",
+fact:"✅ Hardware security keys provide one of the strongest forms of 2FA protection."
+}
+
+];
+
+let questions = [];
+let currentQuestion = 0;
+let reward = 0;
+let lives = 3;
+let timer = 15;
+let timerInterval;
+let selectedCharacter = "Misha 🥷";
+
+/* ===== SOUND ===== */
+
+function playSound(id){
+
+const sound = document.getElementById(id);
+
+sound.currentTime = 0;
+
+sound.play();
+
+}
+
+/* ===== EXPRESSIONS ===== */
+
+function setCharacterExpression(type){
+
+const face =
+document.getElementById("characterFace");
+
+if(type === "happy"){
+
+face.innerHTML = "😄";
+
+face.style.transform =
+"scale(1.2) rotate(5deg)";
+
+}
+
+else if(type === "angry"){
+
+face.innerHTML = "😡";
+
+face.style.transform =
+"scale(1.2) rotate(-5deg)";
+
+}
+
+else if(type === "thinking"){
+
+face.innerHTML = "🤔";
+
+}
+
+else if(type === "win"){
+
+face.innerHTML = "🥳";
+
+}
+
+else if(type === "lose"){
+
+face.innerHTML = "😭";
+
+}
+
+else{
+
+face.innerHTML = "😎";
+
+}
+
+}
+
+/* ===== GUIDE ===== */
+
+function openGuide(){
+
+playSound("buttonSound");
+
+document.getElementById("guideModal")
+.style.display = "flex";
+
+}
+
+function closeGuide(){
+
+playSound("buttonSound");
+
+document.getElementById("guideModal")
+.style.display = "none";
+
+}
+
+/* ===== CHARACTER ===== */
+
+function selectCharacter(name,element){
+
+playSound("characterSound");
+
+selectedCharacter = name;
+
+document.querySelectorAll(".char-btn")
+.forEach(btn=>btn.classList.remove("active"));
+
+element.classList.add("active");
+
+}
+
+/* ===== START ===== */
+
+function startGame(){
+
+playSound("buttonSound");
+
+document.getElementById("welcomeScreen")
+.style.display = "none";
+
+document.getElementById("gameScreen")
+.style.display = "block";
+
+const difficulty =
+document.getElementById("difficulty").value;
+
+document.getElementById("selectedDifficulty")
+.innerText =
+difficulty.charAt(0).toUpperCase() +
+difficulty.slice(1);
+
+if(difficulty === "easy"){
+
+questions = easyQuestions;
+
+}
+
+else if(difficulty === "medium"){
+
+questions = mediumQuestions;
+
+}
+
+else{
+
+questions = hardQuestions;
+
+}
+
+loadQuestion();
+
+}
+
+/* ===== LOAD ===== */
+
+function loadQuestion(){
+
+clearInterval(timerInterval);
+
+timer = 15;
+
+document.getElementById("timer").innerText =
+timer;
+
+timerInterval =
+setInterval(updateTimer,1000);
+
+const q = questions[currentQuestion];
+
+document.getElementById("characterTitle")
+.innerText =
+selectedCharacter + " | " + q.character;
+
+document.getElementById("question")
+.innerText = q.question;
+
+document.getElementById("message")
+.innerHTML = "";
+
+const optionsDiv =
+document.getElementById("options");
+
+optionsDiv.innerHTML = "";
+
+const shuffled =
+[...q.options].sort(()=>Math.random()-0.5);
+
+shuffled.forEach(option=>{
+
+const btn =
+document.createElement("button");
+
+btn.classList.add("option-btn");
+
+btn.innerText = option;
+
+btn.onclick = ()=>checkAnswer(option);
+
+optionsDiv.appendChild(btn);
+
+});
+
+document.getElementById("nextBtn")
+.style.display = "none";
+
+setCharacterExpression("thinking");
+
+/* Progress Bar */
+
+const progress =
+((currentQuestion) / questions.length) * 100;
+
+document.getElementById("progressFill")
+.style.width = progress + "%";
+
+}
+
+/* ===== TIMER ===== */
+
+function updateTimer(){
+
+timer--;
+
+document.getElementById("timer")
+.innerText = timer;
+
+if(timer <= 0){
+
+clearInterval(timerInterval);
+
+loseLife("⏰ Time Up!<br><br>💡 In real life, always read OTP messages carefully and never rush.");
+
+}
+
+}
+
+/* ===== ANSWER ===== */
+
+function checkAnswer(selected){
+
+clearInterval(timerInterval);
+
+const q = questions[currentQuestion];
+
+document.querySelectorAll(".option-btn")
+.forEach(btn=>btn.disabled=true);
+
+if(selected === q.answer){
+
+playSound("correctSound");
+
+setCharacterExpression("happy");
+
+reward += 100;
+
+document.getElementById("reward")
+.innerText = reward;
+
+document.getElementById("message")
+.innerHTML =
+`
+✅ Correct Answer!<br><br>
+${q.fact}<br><br>
+🎁 You earned रु 100
+`;
+
+}else{
+
+playSound("wrongSound");
+
+setCharacterExpression("angry");
+
+loseLife(
+`
+❌ Wrong Answer!<br><br>
+✅ Correct Answer: <b>${q.answer}</b><br><br>
+💡 ${q.fact}
+`
+);
+
+}
+
+document.getElementById("nextBtn")
+.style.display = "inline-block";
+
+}
+
+/* ===== LIFE ===== */
+
+function loseLife(message){
+
+lives--;
+
+document.getElementById("lives")
+.innerText = lives;
+
+document.getElementById("message")
+.innerHTML = message;
+
+if(lives <= 0){
+
+gameOver();
+
+}
+
+}
+
+/* ===== NEXT ===== */
+
+function nextQuestion(){
+
+currentQuestion++;
+
+if(currentQuestion < questions.length){
+
+document.getElementById("levelNumber")
+.innerText = currentQuestion + 1;
+
+loadQuestion();
+
+}else{
+
+winGame();
+
+}
+
+}
+
+/* ===== WIN ===== */
+
+function winGame(){
+
+playSound("victorySound");
+
+setCharacterExpression("win");
+
+document.getElementById("progressFill")
+.style.width = "100%";
+
+document.getElementById("gameScreen")
+.innerHTML =
+
+`
+
+<div style="
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+text-align:center;
+padding:20px;
+">
+
+<div class="quiz-container">
+
+<h1 style="
+font-size:60px;
+color:#FFD700;
+">
+🏆 CYBER NINJA MASTER
+</h1>
+
+<div style="
+font-size:120px;
+margin-top:20px;
+">
+🥳🎆🥷🎆
+</div>
+
+<h2 style="margin-top:20px;">
+${selectedCharacter} completed all levels!
+</h2>
+
+<h2 style="margin-top:20px;">
+Reward: रु ${reward}
+</h2>
+
+<p style="
+margin-top:20px;
+font-size:22px;
+line-height:1.6;
+">
+🔐 You learned how 2FA protects accounts using passwords,
+OTP codes, authenticator apps, and security keys.
+</p>
+
+<button class="btn start-btn"
+onclick="location.reload()">
+Play Again
+</button>
+
+</div>
+
+</div>
+
+`;
+
+}
+
+/* ===== GAME OVER ===== */
+
+function gameOver(){
+
+setCharacterExpression("lose");
+
+document.getElementById("gameScreen")
+.innerHTML =
+
+`
+
+<div style="
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+text-align:center;
+padding:20px;
+">
+
+<div class="quiz-container">
+
+<h1 style="
+font-size:60px;
+color:red;
+">
+💀 GAME OVER
+</h1>
+
+<div style="
+font-size:120px;
+margin-top:20px;
+">
+😭☠️
+</div>
+
+<h2 style="margin-top:20px;">
+${selectedCharacter} lost all lives!
+</h2>
+
+<h2 style="margin-top:20px;">
+Final Reward: रु ${reward}
+</h2>
+
+<p style="
+margin-top:20px;
+font-size:22px;
+line-height:1.6;
+">
+🛡️ Keep practicing cybersecurity and 2FA safety to become stronger!
+</p>
+
+<button class="btn start-btn"
+onclick="location.reload()">
+Try Again
+</button>
+
+</div>
+
+</div>
+
+`;
+
+}
+
+</script>
+
+</body>
+</html>
