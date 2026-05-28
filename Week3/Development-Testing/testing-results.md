@@ -20,10 +20,10 @@ Does any new challenge/interaction work?
 
 
 Does the correct answer show useful feedback?		
-- in progress
+-  yes
 
 Does the wrong answer show helpful feedback?
-- in progress 
+- yes 
 
 Does the feedback teach a cyber-safety lesson?		
 - Shows it is an incorrect answer but not the cyber safety lesson yet.
