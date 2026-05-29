@@ -98,7 +98,9 @@ At the end of the session, all group members participated in delivering the grou
 **Week 4 progress**
 
 Day 1,
-We improved the CYBSHIELD educational game and storyboard to make it more fun, interactive, and easy for children aged 10–15 to understand.We also added character emotion effects such as happy faces for correct answers, angry faces for wrong answers, sad faces when time runs out, and celebration effects when the player wins.
+We improved the CYBSHIELD educational game and storyboard to make it more fun, interactive, and easy for children aged 10–15 to understand.
+
+We also added character emotion effects such as happy faces for correct answers, angry faces for wrong answers, sad faces when time runs out, and celebration effects when the player wins.
 
 
 
