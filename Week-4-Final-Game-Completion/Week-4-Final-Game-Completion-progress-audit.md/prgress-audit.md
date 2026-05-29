@@ -24,41 +24,41 @@ The project is now near complete and ready for demonstration, testing, and inclu
 
 The current version of CybShield includes:
 
-	Interactive welcome page
+Interactive welcome page
 
-	Animated UI and effects
+Animated UI and effects
 
-	Hero selection system
+Hero selection system
 
-	Cybersecurity educational questions
+Cybersecurity educational questions
 
-	Multi-level progression
+Multi-level progression
 
-	Feedback system
+Feedback system
 
- Reward and scoring mechanics
+Reward and scoring mechanics
 
- Child-friendly design
+Child-friendly design
 
-	Responsive layout
+Responsive layout
 
-	Accessibility-focused interactions
+Accessibility-focused interactions
 
 **Testing Summary**
  
 Testing confirmed that:
 
-	The game launches correctly
+The game launches correctly
 
-	Buttons and interactions function properly
+Buttons and interactions function properly
 
- Character selection works correctly
+Character selection works correctly
 
-	Feedback appears after answers
+Feedback appears after answers
 
-	The game works on smaller screen sizes
+The game works on smaller screen sizes
 
-	The UI is suitable for children aged 10–12
+The UI is suitable for children aged 10–12
 
 Minor issues identified during testing were fixed during Week 4.
 
