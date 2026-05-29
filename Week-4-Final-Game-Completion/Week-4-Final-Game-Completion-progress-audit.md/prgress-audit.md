@@ -24,25 +24,24 @@ The project is now near complete and ready for demonstration, testing, and inclu
 
 The current version of CybShield includes:
 
-Interactive welcome page
+- Interactive welcome page
 
-Animated UI and effects
+- Animated UI and effects
 
-Hero selection system
+- Hero selection system
 
-Cybersecurity educational questions
+- Cybersecurity educational questions
+- Multi-level progression
 
-Multi-level progression
+- Feedback system
 
-Feedback system
+- Reward and scoring mechanics
 
-Reward and scoring mechanics
+- Child-friendly design
 
-Child-friendly design
+- Responsive layout
 
-Responsive layout
-
-Accessibility-focused interactions
+- Accessibility-focused interactions
 
 **Testing Summary**
  
