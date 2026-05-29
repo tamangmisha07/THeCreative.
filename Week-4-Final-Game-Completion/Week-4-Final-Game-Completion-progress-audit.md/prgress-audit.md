@@ -1,16 +1,16 @@
-Progress Audit
+**Progress Audit**
 
  Week 4 Final Game Completion
 
 503IT Communication and Collaboration (503IT)
 
-Project Title
+**Project Title**
 
 CybShield – Cyber Security Adventure Game
 
 Week 4 – Final Game Completion
 
-Project Progress Overview
+**Project Progress Overview**
 
 During Week 4, the group focused on completing the final version of the CybShield cybersecurity educational game. 
 
@@ -20,45 +20,45 @@ Major frontend functionality, game logic, responsiveness, and cybersecurity chal
 
 The project is now near complete and ready for demonstration, testing, and inclusion within the final portfolio and presentation.
                   
-Current Prototype Features
+**Current Prototype Features**
 
 The current version of CybShield includes:
 
-•	Interactive welcome page
+	Interactive welcome page
 
-•	Animated UI and effects
+	Animated UI and effects
 
-•	Hero selection system
+	Hero selection system
 
-•	Cybersecurity educational questions
+	Cybersecurity educational questions
 
-•	 Multi-level progression
+	Multi-level progression
 
-•	Feedback system
+	Feedback system
 
-•	 Reward and scoring mechanics
+ Reward and scoring mechanics
 
-•	Child-friendly design
+ Child-friendly design
 
-•	Responsive layout
+	Responsive layout
 
-•	 Accessibility-focused interactions
+	Accessibility-focused interactions
 
- Testing Summary
+**Testing Summary**
  
 Testing confirmed that:
 
-•	The game launches correctly
+	The game launches correctly
 
-•	Buttons and interactions function properly
+	Buttons and interactions function properly
 
-•	Character selection works correctly
+ Character selection works correctly
 
-•	Feedback appears after answers
+	Feedback appears after answers
 
-•	The game works on smaller screen sizes
+	The game works on smaller screen sizes
 
-•	The UI is suitable for children aged 10–12
+	The UI is suitable for children aged 10–12
 
 Minor issues identified during testing were fixed during Week 4.
 
