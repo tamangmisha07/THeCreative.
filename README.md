@@ -104,6 +104,8 @@ We also added character emotion effects such as happy faces for correct answers,
 
 we improved the learning experience by using rewards, coins, lives, timers, and progress bars so children can learn Two-Factor Authentication (2FA) and cyber safety in a fun and engaging way.
 
+Day 2,
+
 
 
  **Features of CybShield**
