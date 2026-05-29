@@ -1,7 +1,11 @@
 Week 4
+
 Individual Contribution Log
+
 Name: Yosheph Tamang
+
 Student ID: 15614717
+
 GitHub Username: Yosheph Tamang
 
 
