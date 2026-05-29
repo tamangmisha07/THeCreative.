@@ -6,9 +6,9 @@
 
 **Project Title**
 
-CybShield – Cyber Security Adventure Game
+CybShield: Cyber Security Adventure Game
 
-Week 4 – Final Game Completion
+Week 4: Final Game Completion
 
 **Project Progress Overview**
 
