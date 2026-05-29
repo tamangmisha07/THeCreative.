@@ -98,6 +98,7 @@ At the end of the session, all group members participated in delivering the grou
 **Week 4 progress**
 
 Day 1,
+We improved the CYBSHIELD educational game and storyboard to make it more fun, interactive, and easy for children aged 10–15 to understand.
 
  **Features of CybShield**
 - Educational cyber-security quiz game
