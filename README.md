@@ -102,6 +102,8 @@ We improved the CYBSHIELD educational game and storyboard to make it more fun, i
 
 We also added character emotion effects such as happy faces for correct answers, angry faces for wrong answers, sad faces when time runs out, and celebration effects when the player wins.
 
+we improved the learning experience by using rewards, coins, lives, timers, and progress bars so children can learn Two-Factor Authentication (2FA) and cyber safety in a fun and engaging way.
+
 
 
  **Features of CybShield**
