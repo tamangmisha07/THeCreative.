@@ -10,8 +10,8 @@ Testing Goal
 Check whether the prototype works correctly and whether users can understand and complete the first cyber-safety challenge.
 
 
-Does the prototype open or start correctly? 
- Yes 
+Does the prototype open or start correctly?
+     Yes 
  HTML file opened successfully in browser 
  Is the welcome/title screen clear? 
  Yes 
