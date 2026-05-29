@@ -141,7 +141,7 @@ https://github.com/tamangmisha07/THeCreative
 **Wellcome-page**
 ![](https://raw.githubusercontent.com/tamangmisha07/THeCreative./5de7f46b9983dee4614de5c0b71431a64d393c51/Week3/Development-Testing/Screenshot%202026-05-28%20103953.png)
 
-**Here are the working of the game**
+**Here is the step by step guid, how to play this game**
 ![]()
 
   
