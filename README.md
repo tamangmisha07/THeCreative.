@@ -29,7 +29,7 @@ Here are the group members name and roles mention:
 
  **Yosheph** : *Researcher*
 
- **Krishna** : *Meeting Organiger*
+ **Krishna** : *Meeting Organizer*
  
 
 About the game:
