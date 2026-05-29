@@ -9,4 +9,4 @@ Claude: UX/UI improvement and debugging support
 
 STATEMENT:
 
-Our group THeCreative used Chatgpt and Claude Ai to support rainstorming, coding , debugging and generating cybersecurity quiz ideas for the cybshield game. All AI generated content was reviewed tested and modifid by the group members before implementation to ensure accuracy, usability and stability for children aged 10-15
+Our group THeCreative used Chatgpt and Claude Ai to support brainstorming, coding , debugging and generating cybersecurity quiz ideas for the cybshield game. All AI generated content was reviewed tested and modifid by the group members before implementation to ensure accuracy, usability and stability for children aged 10-15
