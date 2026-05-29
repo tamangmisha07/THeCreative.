@@ -11,6 +11,7 @@ Check whether the prototype works correctly and whether users can understand and
 
 
 Does the prototype open or start correctly?
+
      Yes 
  HTML file opened successfully in browser 
  Is the welcome/title screen clear? 
