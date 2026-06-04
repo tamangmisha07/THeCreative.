@@ -142,6 +142,16 @@ https://github.com/tamangmisha07/THeCreative
 ![](https://raw.githubusercontent.com/tamangmisha07/THeCreative./5de7f46b9983dee4614de5c0b71431a64d393c51/Week3/Development-Testing/Screenshot%202026-05-28%20103953.png)
 
 **Here is the step by step guid, how to play this game**
+
+
+**Go to our game which is avilable on online: cybshield.netlify.app**
+
+**Step 1: Open the game on website.
+
+![1st page](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Welcome%20page.png?raw=true)
+
+**Step 2: Click the "how to play" instruction button.**
+
 ![]()
 
   
