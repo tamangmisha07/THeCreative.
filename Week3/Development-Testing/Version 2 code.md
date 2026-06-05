@@ -351,23 +351,23 @@
 <div id="welcomePage" class="page">
   <div class="wrapper">
     <div class="title-wrap">
-      <span class="shield-icon">🛡️</span>
+      <span class="shield-icon"></span>
       <div class="title-main">CybShield</div>
-      <div class="title-sub">✨ Cyber Security Adventure! ✨</div>
-      <div class="badge-2fa">🔐 2FA HERO QUEST</div>
+      <div class="title-sub">Cyber Security Adventure!</div>
+      <div class="badge-2fa">2FA HERO QUEST</div>
     </div>
     <div class="score-section">
-      <div class="score-label">⭐ Your Score</div>
+      <div class="score-label">Your Score</div>
       <div class="score-track"><div class="score-fill" id="welcomeScoreFill" style="width:0%"></div><span class="score-value" id="welcomeScoreValue">0 / 100</span></div>
     </div>
     <div class="reward-section">
-      <div class="reward-title">🏆 Reward Badges</div>
+      <div class="reward-title"> Reward Badges</div>
       <div class="reward-badges" id="badgesContainer">
-        <div class="reward-badge"><span class="badge-icon">🌟</span><span class="badge-name">Starter</span></div>
-        <div class="reward-badge"><span class="badge-icon">🔓</span><span class="badge-name">Breaker</span></div>
-        <div class="reward-badge"><span class="badge-icon">🛡️</span><span class="badge-name">Shield</span></div>
-        <div class="reward-badge"><span class="badge-icon">🥷</span><span class="badge-name">Ninja</span></div>
-        <div class="reward-badge"><span class="badge-icon">👑</span><span class="badge-name">Legend</span></div>
+        <div class="reward-badge"><span class="badge-icon"></span><span class="badge-name">Starter</span></div>
+        <div class="reward-badge"><span class="badge-icon"></span><span class="badge-name">Breaker</span></div>
+        <div class="reward-badge"><span class="badge-icon"></span><span class="badge-name">Shield</span></div>
+        <div class="reward-badge"><span class="badge-icon"></span><span class="badge-name">Ninja</span></div>
+        <div class="reward-badge"><span class="badge-icon"></span><span class="badge-name">Legend</span></div>
       </div>
     </div>
     <div class="char-section">
@@ -381,7 +381,7 @@
       </div>
     </div>
     <div class="bottom-bar" style="position: relative; margin-top: 40px;">
-      <button class="btn-start" id="startGameBtn">▶️ START ADVENTURE</button>
+      <button class="btn-start" id="startGameBtn"> START ADVENTURE</button>
     </div>
   </div>
 </div>
@@ -390,13 +390,13 @@
 <div id="levelSelectPage" class="page hidden">
   <div class="wrapper">
     <div class="title-wrap">
-      <div class="title-main">🌍 Select Level</div>
+      <div class="title-main">Select Level</div>
       <div class="title-sub">Choose your mission</div>
     </div>
     <div class="level-select-container">
       <div class="level-grid" id="levelGrid"></div>
       <div id="levelInfoBox" class="level-info" style="display: none;"></div>
-      <button class="back-btn" id="backToWelcomeBtn">🔙 Back to Heroes</button>
+      <button class="back-btn" id="backToWelcomeBtn"> Back to Heroes</button>
     </div>
   </div>
 </div>
@@ -406,20 +406,20 @@
   <div class="wrapper">
     <div class="quiz-panel">
       <div class="quiz-header">
-        <span id="levelBadge">🔐 LEVEL 1: EASY</span>
-        <span>💰 NPR: <span id="quizNrsDisplay">0</span></span>
+        <span id="levelBadge"> LEVEL 1: EASY</span>
+        <span>NPR: <span id="quizNrsDisplay">0</span></span>
       </div>
       <div class="question-text" id="quizQuestion">Loading...</div>
       <div class="options-grid" id="quizOptions"></div>
       <div class="quiz-feedback" id="quizFeedbackMsg"></div>
-      <button class="next-btn" id="quizNextBtn" disabled>Next Question ➡️</button>
-      <button class="quit-btn" id="quitQuizBtn">🏠 Exit Level</button>
+      <button class="next-btn" id="quizNextBtn" disabled>Next Question </button>
+      <button class="quit-btn" id="quitQuizBtn"> Exit Level</button>
     </div>
   </div>
 </div>
 
 <!-- Modals -->
-<div class="overlay" id="infoModal"><div class="modal"><span class="modal-icon">ℹ️</span><div class="modal-title" id="infoTitle"></div><div class="modal-body" id="infoBody"></div><button class="modal-close" onclick="closeModal('infoModal')">OK</button></div></div>
+<div class="overlay" id="infoModal"><div class="modal"><span class="modal-icon"></span><div class="modal-title" id="infoTitle"></div><div class="modal-body" id="infoBody"></div><button class="modal-close" onclick="closeModal('infoModal')">OK</button></div></div>
 
 <script>
   // ---------- GLOBAL STATE ----------
@@ -521,7 +521,7 @@
       const startBtn = document.getElementById('startLevel1Btn');
       if (startBtn) startBtn.onclick = () => startLevelOneGame();
     } else {
-      showInfoModal("⚠️ Not Available", "Only Level 1 is ready for now. Complete Level 1 to unlock more!");
+      showInfoModal(" Not Available", "Only Level 1 is ready for now. Complete Level 1 to unlock more!");
     }
   }
 
@@ -559,7 +559,7 @@
       optsDiv.appendChild(optEl);
     });
     document.getElementById('quizNextBtn').disabled = true;
-    document.getElementById('quizNextBtn').innerText = '⏳ Choose an answer';
+    document.getElementById('quizNextBtn').innerText = ' Choose an answer';
   }
 
   function handleAnswer(selectedIdx, element) {
@@ -572,10 +572,10 @@
       if (totalCyberScore > 100) totalCyberScore = 100;
       updateWelcomeUI();
       document.getElementById('quizNrsDisplay').innerText = totalEarnedNPR;
-      document.getElementById('quizFeedbackMsg').innerHTML = '✅ CORRECT! +100 NPR & +20 Cyber Score! 🎉';
+      document.getElementById('quizFeedbackMsg').innerHTML = 'CORRECT! +100 NPR & +20 Cyber Score! ';
       document.getElementById('quizFeedbackMsg').style.color = '#a0ffa0';
     } else {
-      document.getElementById('quizFeedbackMsg').innerHTML = ❌ OOPS the wrong ans. Correct: ${currentQuestionObj.options[currentQuestionObj.correct]} 🔐;
+      document.getElementById('quizFeedbackMsg').innerHTML =  OOPS the wrong ans. Correct: ${currentQuestionObj.options[currentQuestionObj.correct]} ;
       document.getElementById('quizFeedbackMsg').style.color = '#ffaaaa';
     }
     answered = true;
@@ -588,7 +588,7 @@
   function nextQuestionStep() {
     if (!quizActive) return;
     if (!answered) {
-      document.getElementById('quizFeedbackMsg').innerHTML = '⚠️ Please select an answer first!';
+      document.getElementById('quizFeedbackMsg').innerHTML = 'Please select an answer first!';
       return;
     }
     if (currentQIndex + 1 < levelQuestions.length) {
@@ -601,7 +601,7 @@
 
   function finishLevelComplete() {
     quizActive = false;
-    document.getElementById('quizFeedbackMsg').innerHTML = 🏆 LEVEL 1 COMPLETE! 🏆<br>💰 Total NPR Earned: ${totalEarnedNPR}<br>⭐ Cyber Score: ${totalCyberScore}/100<br>🎉 Great job, hero! Level 1 conquered!;
+    document.getElementById('quizFeedbackMsg').innerHTML = LEVEL 1 COMPLETE! <br>Total NPR Earned: ${totalEarnedNPR}<br>⭐ Cyber Score: ${totalCyberScore}/100<br>🎉 Great job, hero! Level 1 conquered!;
     document.getElementById('quizNextBtn').disabled = true;
     document.getElementById('quizNextBtn').innerText = '✅ Completed';
     // Unlock next level (level 2) for future but keep only level1 now according to requirement, but for continuity we unlock level2 in level grid but not used yet
