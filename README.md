@@ -152,8 +152,8 @@ https://github.com/tamangmisha07/THeCreative
 
 **Step 2: Click the "how to play" instruction button.**
 
+![it's teaches how to play the game](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20How%20to%20play%20instruction.png?raw=true)
+
+**step 3: choose the level.** 
+
 ![]()
-
-  
-
-
