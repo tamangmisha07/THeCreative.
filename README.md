@@ -170,4 +170,6 @@ https://github.com/tamangmisha07/THeCreative
 
 ![getting reward and feedback from the game](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20getting%20rewards.png?raw=true)
 
-**step7: 
+**step7: "Victory".**
+
+![after completing the game, you will get victory](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Getting%20Victory.png?raw=true)
