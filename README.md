@@ -173,3 +173,7 @@ https://github.com/tamangmisha07/THeCreative
 **step7: "Victory".**
 
 ![after completing the game, you will get victory](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Getting%20Victory.png?raw=true)
+
+**This is our game loop**
+
+**(Our game is able to teach the 2FA to the children , why 2FA is needed for our digital account and how 2FA secure the account through our game)**  
