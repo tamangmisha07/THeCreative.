@@ -14,10 +14,14 @@ Duolingo is mainly targeted at users aged 13–30, including students and young 
 Colours and Backgrounds:
 
 Duolingo uses bright and friendly colours such as green, white, and light grey. These colours create a welcoming and positive environment for users. The clean background design also improves readability and helps users focus on lessons without distractions.
+<img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/73d3694c-0d7e-4ac8-b802-1cabc1a3e000" />
+
  
 Icons and Buttons:
 
 The application uses large buttons, stars, shields, badges, and simple icons that are easy to understand. Rounded buttons and colorful visuals improve accessibility and make navigation easier for younger users.
+<img width="975" height="517" alt="image" src="https://github.com/user-attachments/assets/696ae73b-0abb-472f-80b5-e9f8069b9956" />
+
  
 How It Holds Attention:
 
@@ -56,6 +60,8 @@ Among Us is popular among users aged 10–25, especially children, teenagers, an
 Colours and Backgrounds:
 
 Among Us uses dark navy and green futuristic backgrounds that create a space-themed environment. The high contrast between dark backgrounds and bright interactive elements helps important information stand out clearly. 
+<img width="975" height="512" alt="image" src="https://github.com/user-attachments/assets/9f3c2629-a3f9-4a3a-b974-959780d77c96" />
+
 
 Icons and Buttons:
 
