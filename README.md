@@ -146,7 +146,7 @@ https://github.com/tamangmisha07/THeCreative
 
 **Go to our game which is avilable on online: cybshield.netlify.app**
 
-**Step 1: Open the game on website.
+**Step 1: Open the game on website.**
 
 ![1st page](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Welcome%20page.png?raw=true)
 
@@ -161,3 +161,7 @@ https://github.com/tamangmisha07/THeCreative
 **step4: Click the "character" button.**
 
 ![choose the character you wanna play with](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Welcome%20page.png?raw=true)
+
+**step5: Click the "start game","How to play the game".**
+
+![now play the game](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20how%20to%20play%20the%20game.png?raw=true)
