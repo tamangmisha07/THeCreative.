@@ -165,3 +165,9 @@ https://github.com/tamangmisha07/THeCreative
 **step5: Click the "start game","How to play the game".**
 
 ![now play the game](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20how%20to%20play%20the%20game.png?raw=true)
+
+**step6: "Reward and feedback".**
+
+![getting reward and feedback from the game](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20getting%20rewards.png?raw=true)
+
+**step7: 
