@@ -154,6 +154,10 @@ https://github.com/tamangmisha07/THeCreative
 
 ![it's teaches how to play the game](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20How%20to%20play%20instruction.png?raw=true)
 
-**step 3: click the "level selection" button.** 
+**step 3: Click the "level selection" button.** 
 
 ![choose the level you wanna play](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Level%20Selection%20Features.png?raw=true)
+
+**step4: Click the "character" button.**
+
+![choose the character you wanna play with](https://github.com/tamangmisha07/THeCreative./blob/main/Week-4-Final-Game-Completion/%23Week-4-Final-Game-Completion-final-prototype-screenshots/Screenshot%20of%20Welcome%20page.png?raw=true)
