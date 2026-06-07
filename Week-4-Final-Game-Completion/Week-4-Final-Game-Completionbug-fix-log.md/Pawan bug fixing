@@ -1,1 +1,10 @@
-Me Pawan Sunar as a Team Member of the Group THeCreative I define the bug in the welcome page of the game and i fixed the problem.
+In the game in found 2 bug and i fixed it by using AI tools. The prompt that I had used to fixed the problem is mention below:
+
+"""in this game every thing is fine but you need to fix 2 main problems. number one problem is
+when user open the webpage, how to play instruction is already open so, fix it like that when user
+click the "how to play button" then it will show the instruction. seconde propblem is when user pick 
+wrong ans or right ans the feedback not clear to the 2FA, SO MAKE it like giving good feed back.
+and the last problem is that when user select levels like easy, medium and hard show that user selected
+which level and ask user question related to the level, ask user easy question in easy level, ask user medium
+question in medium and ask hard question in hard level. remember the question should be totally teach user
+about 2FA and give me the code in one file. """""
