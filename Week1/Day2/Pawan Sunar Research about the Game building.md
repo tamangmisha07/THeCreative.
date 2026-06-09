@@ -4,4 +4,4 @@ Web-based games provide several advantages for developers. They are easily acces
 
 
 'I had done this research by the used of Chatgpt'
-This is the evidence of the research that I have done in the group project in the first week. This image shows that why we pick the Web based game rather that the app based game.
+This is the evidence of the research that I have done in the group project in the first week. This shows that why we pick the Web based game rather that the app based game.
