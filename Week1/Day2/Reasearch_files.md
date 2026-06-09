@@ -21,12 +21,22 @@ Phishing and social engineering, credential stuffing, data breaches, ai-powered 
 Types of 2FAs:
 
 -	SMS OTP Authentication: it authenticates the user through a one time code(OTP) send by sms or emails.
+  <img width="434" height="507" alt="image" src="https://github.com/user-attachments/assets/902e27b7-2afa-481d-96dc-d11bf16d9e32" />
 
--	authenticator Apps: the authenticator apps enhance security over sms, with many providing encrypted backups and multi-device syncing.  
+
+
+-	authenticator Apps: the authenticator apps enhance security over sms, with many providing encrypted backups and multi-device syncing.
+  <img width="976" height="548" alt="image" src="https://github.com/user-attachments/assets/6ea7ccdf-9b00-463b-a7b9-91b8ed320eea" />
+
 
 -	Email verification: 2FA email verification examples include concise, time-sensitive codes or magic links sent to a user’s registered email after they enter their password
+<img width="973" height="546" alt="image" src="https://github.com/user-attachments/assets/4d0e9edd-055a-4974-92ed-cf1d22b372b9" />
 
  -	Push notification: it provide a secure, one tap method to authorize logins by sending an instant prompt to a users mobile device.
-  
+  <img width="804" height="854" alt="image" src="https://github.com/user-attachments/assets/0712916c-ac84-4444-89b4-7667ec4bba5e" />
+
  -	Biometrics: Biometric 2FA (Two-Factor Authentication) uses unique physical or behavioral characteristics, "something you are" as the second layer of security after a password. Common examples include fingerprint scans, facial recognition (FaceID), iris scans, and voice recognition. These methods provide high security and convenience for accessing devices and apps
+
+
+
 
