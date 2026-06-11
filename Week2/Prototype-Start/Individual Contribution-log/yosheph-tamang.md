@@ -45,3 +45,5 @@ What I need to do next:
 - Suggest improvements for smooth flow, and visual clarity and error messages
 - Participate in retesting after fixes are applied
 
+furthermore on week 3, i also finalised the 9 final cybersecurity questions to be asked on the game.
+
