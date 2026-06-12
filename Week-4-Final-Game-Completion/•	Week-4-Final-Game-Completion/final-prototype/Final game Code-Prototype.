@@ -28,7 +28,7 @@ animation:bgMove 10s linear infinite;
 100%{background-position:1000px 0;}
 }
 
-/* ===== WELCOME ===== */
+/* WELCOME  */
 
 #welcomeScreen{
 width:100%;
@@ -127,7 +127,7 @@ border-radius:10px;
 margin-top:10px;
 }
 
-/* ===== CHARACTER ===== */
+/* CHARACTER */
 
 .character-select{
 display:grid;
@@ -169,7 +169,7 @@ background:#00d26a;
 color:white;
 }
 
-/* ===== BUTTON ===== */
+/*  BUTTON  */
 
 .btn{
 border:none;
@@ -204,7 +204,7 @@ color:#0A2647;
 100%{transform:scale(1);}
 }
 
-/* ===== GAME ===== */
+/* GAME */
 
 #gameScreen{
 display:none;
@@ -313,7 +313,7 @@ background:#FFD700;
 color:black;
 }
 
-/* ===== MODAL ===== */
+/*  MODAL */
 
 .modal{
 position:fixed;
@@ -351,7 +351,7 @@ background:#00d26a;
 color:white;
 }
 
-/* ===== ANIMATION ===== */
+/*  ANIMATION  */
 
 @keyframes fadeIn{
 from{
@@ -364,7 +364,7 @@ transform:translateY(0);
 }
 }
 
-/* ===== MOBILE ===== */
+/* MOBILE  */
 
 @media(max-width:700px){
 
@@ -392,7 +392,7 @@ width:100%;
 
 <body>
 
-<!-- ===== WELCOME ===== -->
+<!--  WELCOME -->
 
 <div id="welcomeScreen">
 
@@ -408,9 +408,9 @@ Learn Cyber Security & 2FA With Fun Ninja Adventures!
 </div>
 
 <div class="ninja-box">
-<div class="ninja">🥷</div>
-<div class="ninja">🛡️</div>
-<div class="ninja">🔐</div>
+<div class="ninja"></div>
+<div class="ninja"></div>
+<div class="ninja"></div>
 </div>
 
 <h3>Select Difficulty</h3>
@@ -432,33 +432,33 @@ Choose Your Character
 <div class="character-select">
 
 <button class="char-btn active"
-onclick="selectCharacter('Misha 🥷',this)">
+onclick="selectCharacter('Misha ',this)">
 <img src="https://i.pinimg.com/736x/9e/21/8f/9e218f2b03820e5a6e60bb8b998954c0.jpg">
-<span>Misha 🥷</span>
+<span>Misha </span>
 </button>
 
 <button class="char-btn"
-onclick="selectCharacter('Priksha ⚔️',this)">
+onclick="selectCharacter('Priksha ',this)">
 <img src="https://i.pinimg.com/564x/12/ff/e5/12ffe5ae74e9fde4386b95d6564059a8.jpg">
-<span>Priksha ⚔️</span>
+<span>Priksha </span>
 </button>
 
 <button class="char-btn"
-onclick="selectCharacter('Pawan 🔥',this)">
+onclick="selectCharacter('Pawan ',this)">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ICDfDqlfkiOpGG7DNrkLRuBWlaiCn9P8Lg&s">
-<span>Pawan 🔥</span>
+<span>Pawan </span>
 </button>
 
 <button class="char-btn"
-onclick="selectCharacter('Krishna 🛡️',this)">
+onclick="selectCharacter('Krishna ',this)">
 <img src="https://preview.redd.it/yuji-itadori-fanart-final-version-v0-ufj5fa0d8fdg1.jpeg?auto=webp&s=c8e0bbd724072a9c6a102a70afbf8784e8f6cf58">
-<span>Krishna 🛡️</span>
+<span>Krishna </span>
 </button>
 
 <button class="char-btn"
-onclick="selectCharacter('Yosheph ⚡',this)">
+onclick="selectCharacter('Yosheph ',this)">
 <img src="https://i.pinimg.com/736x/d7/21/ae/d721aeb766e16b3b10e3d27fddea472f.jpg">
-<span>Yosheph ⚡</span>
+<span>Yosheph </span>
 </button>
 
 </div>
@@ -477,7 +477,7 @@ START GAME
 
 </div>
 
-<!-- ===== GAME ===== -->
+<!--  GAME -->
 
 <div id="gameScreen">
 
@@ -499,12 +499,12 @@ Reward: रु
 </div>
 
 <div class="timer-box">
-⏳ Time:
+ Time:
 <span id="timer">15</span>
 </div>
 
 <div class="life-box">
-❤️ Lives:
+ Lives:
 <span id="lives">3</span>
 </div>
 
@@ -528,7 +528,7 @@ margin-bottom:20px;
 animation:bounce 2s infinite;
 transition:0.4s;
 ">
-😎
+
 </div>
 
 <div class="question"
@@ -562,7 +562,7 @@ Next Level
 
 <div class="modal-content">
 
-<h2>🎮 How To Play</h2>
+<h2>How To Play</h2>
 
 <ul>
 <li>Select your ninja character.</li>
@@ -593,12 +593,12 @@ Close
 
 <script>
 
-/* ===== QUESTIONS ===== */
+/*  QUESTIONS  */
 
 const easyQuestions = [
 
 {
-character:"🌱 Easy Level 1",
+character:" Easy Level 1",
 question:"What does OTP stand for?",
 options:[
 "One Time Password",
@@ -607,11 +607,11 @@ options:[
 "Only Text Password"
 ],
 answer:"One Time Password",
-fact:"✅ OTP means One Time Password. It is a temporary code used in 2FA to protect your account."
+fact:" OTP means One Time Password. It is a temporary code used in 2FA to protect your account."
 },
 
 {
-character:"🌱 Easy Level 2",
+character:" Easy Level 2",
 question:"Should you share your OTP with anyone?",
 options:[
 "No",
@@ -620,11 +620,11 @@ options:[
 "Only Friends"
 ],
 answer:"No",
-fact:"✅ Never share your OTP. Banks and apps never ask for your OTP."
+fact:" Never share your OTP. Banks and apps never ask for your OTP."
 },
 
 {
-character:"🌱 Easy Level 3",
+character:"Easy Level 3",
 question:"Why is 2FA safer than only a password?",
 options:[
 "It adds extra security",
@@ -633,7 +633,7 @@ options:[
 "It removes passwords"
 ],
 answer:"It adds extra security",
-fact:"✅ 2FA adds a second security step, making hacking much harder."
+fact:"2FA adds a second security step, making hacking much harder."
 }
 
 ];
@@ -641,7 +641,7 @@ fact:"✅ 2FA adds a second security step, making hacking much harder."
 const mediumQuestions = [
 
 {
-character:"⚔️ Medium Level 1",
+character:" Medium Level 1",
 question:"Which is the best example of 2FA?",
 options:[
 "Password + OTP",
@@ -650,11 +650,11 @@ options:[
 "Username Only"
 ],
 answer:"Password + OTP",
-fact:"✅ Real 2FA uses two different methods like password + OTP."
+fact:" Real 2FA uses two different methods like password + OTP."
 },
 
 {
-character:"⚔️ Medium Level 2",
+character:"Medium Level 2",
 question:"What should you do if you receive an OTP you did not request?",
 options:[
 "Ignore it and secure account",
@@ -663,11 +663,11 @@ options:[
 "Use it quickly"
 ],
 answer:"Ignore it and secure account",
-fact:"✅ Unexpected OTPs may mean someone is trying to access your account."
+fact:" Unexpected OTPs may mean someone is trying to access your account."
 },
 
 {
-character:"⚔️ Medium Level 3",
+character:" Medium Level 3",
 question:"Which app is commonly used for 2FA codes?",
 options:[
 "Google Authenticator",
@@ -676,7 +676,7 @@ options:[
 "Camera"
 ],
 answer:"Google Authenticator",
-fact:"✅ Authenticator apps generate secure login codes for 2FA."
+fact:"Authenticator apps generate secure login codes for 2FA."
 }
 
 ];
@@ -684,7 +684,7 @@ fact:"✅ Authenticator apps generate secure login codes for 2FA."
 const hardQuestions = [
 
 {
-character:"🔥 Hard Level 1",
+character:" Hard Level 1",
 question:"Why are authenticator apps safer than SMS OTPs?",
 options:[
 "They can resist SIM swap attacks",
@@ -693,11 +693,11 @@ options:[
 "They remove passwords"
 ],
 answer:"They can resist SIM swap attacks",
-fact:"✅ Authenticator apps are safer because hackers cannot easily steal codes through SIM swapping."
+fact:" Authenticator apps are safer because hackers cannot easily steal codes through SIM swapping."
 },
 
 {
-character:"🔥 Hard Level 2",
+character:" Hard Level 2",
 question:"What is the main goal of 2FA?",
 options:[
 "Verify identity using two methods",
@@ -706,11 +706,11 @@ options:[
 "Disable passwords"
 ],
 answer:"Verify identity using two methods",
-fact:"✅ 2FA confirms your identity using two different verification methods."
+fact:" 2FA confirms your identity using two different verification methods."
 },
 
 {
-character:"🔥 Hard Level 3",
+character:" Hard Level 3",
 question:"Which option is the strongest 2FA method?",
 options:[
 "Security Key + Password",
@@ -719,7 +719,7 @@ options:[
 "Username + PIN"
 ],
 answer:"Security Key + Password",
-fact:"✅ Hardware security keys provide one of the strongest forms of 2FA protection."
+fact:" Hardware security keys provide one of the strongest forms of 2FA protection."
 }
 
 ];
@@ -730,9 +730,9 @@ let reward = 0;
 let lives = 3;
 let timer = 15;
 let timerInterval;
-let selectedCharacter = "Misha 🥷";
+let selectedCharacter = "Misha ";
 
-/* ===== SOUND ===== */
+/*  SOUND */
 
 function playSound(id){
 
@@ -744,7 +744,7 @@ sound.play();
 
 }
 
-/* ===== EXPRESSIONS ===== */
+/* EXPRESSIONS */
 
 function setCharacterExpression(type){
 
@@ -753,7 +753,7 @@ document.getElementById("characterFace");
 
 if(type === "happy"){
 
-face.innerHTML = "😄";
+face.innerHTML = "";
 
 face.style.transform =
 "scale(1.2) rotate(5deg)";
@@ -762,7 +762,7 @@ face.style.transform =
 
 else if(type === "angry"){
 
-face.innerHTML = "😡";
+face.innerHTML = "";
 
 face.style.transform =
 "scale(1.2) rotate(-5deg)";
@@ -771,31 +771,31 @@ face.style.transform =
 
 else if(type === "thinking"){
 
-face.innerHTML = "🤔";
+face.innerHTML = "";
 
 }
 
 else if(type === "win"){
 
-face.innerHTML = "🥳";
+face.innerHTML = "";
 
 }
 
 else if(type === "lose"){
 
-face.innerHTML = "😭";
+face.innerHTML = "";
 
 }
 
 else{
 
-face.innerHTML = "😎";
+face.innerHTML = "";
 
 }
 
 }
 
-/* ===== GUIDE ===== */
+/* GUIDE  */
 
 function openGuide(){
 
@@ -815,7 +815,7 @@ document.getElementById("guideModal")
 
 }
 
-/* ===== CHARACTER ===== */
+/*  CHARACTER */
 
 function selectCharacter(name,element){
 
@@ -830,7 +830,7 @@ element.classList.add("active");
 
 }
 
-/* ===== START ===== */
+/*  START  */
 
 function startGame(){
 
@@ -872,7 +872,7 @@ loadQuestion();
 
 }
 
-/* ===== LOAD ===== */
+/*  LOAD */
 
 function loadQuestion(){
 
@@ -949,13 +949,13 @@ if(timer <= 0){
 
 clearInterval(timerInterval);
 
-loseLife("⏰ Time Up!<br><br>💡 In real life, always read OTP messages carefully and never rush.");
+loseLife(" Time Up!<br><br> In real life, always read OTP messages carefully and never rush.");
 
 }
 
 }
 
-/* ===== ANSWER ===== */
+/*  ANSWER  */
 
 function checkAnswer(selected){
 
@@ -980,9 +980,9 @@ document.getElementById("reward")
 document.getElementById("message")
 .innerHTML =
 `
-✅ Correct Answer!<br><br>
+Correct Answer!<br><br>
 ${q.fact}<br><br>
-🎁 You earned रु 100
+You earned रु 100
 `;
 
 }else{
@@ -993,9 +993,9 @@ setCharacterExpression("angry");
 
 loseLife(
 `
-❌ Wrong Answer!<br><br>
-✅ Correct Answer: <b>${q.answer}</b><br><br>
-💡 ${q.fact}
+Wrong Answer!<br><br>
+Correct Answer: <b>${q.answer}</b><br><br>
+ ${q.fact}
 `
 );
 
@@ -1006,7 +1006,7 @@ document.getElementById("nextBtn")
 
 }
 
-/* ===== LIFE ===== */
+/*  LIFE */
 
 function loseLife(message){
 
@@ -1026,7 +1026,7 @@ gameOver();
 
 }
 
-/* ===== NEXT ===== */
+/*  NEXT */
 
 function nextQuestion(){
 
@@ -1047,7 +1047,7 @@ winGame();
 
 }
 
-/* ===== WIN ===== */
+/*  WIN  */
 
 function winGame(){
 
@@ -1078,14 +1078,14 @@ padding:20px;
 font-size:60px;
 color:#FFD700;
 ">
-🏆 CYBER NINJA MASTER
+CYBER NINJA MASTER
 </h1>
 
 <div style="
 font-size:120px;
 margin-top:20px;
 ">
-🥳🎆🥷🎆
+
 </div>
 
 <h2 style="margin-top:20px;">
@@ -1101,7 +1101,7 @@ margin-top:20px;
 font-size:22px;
 line-height:1.6;
 ">
-🔐 You learned how 2FA protects accounts using passwords,
+ You learned how 2FA protects accounts using passwords,
 OTP codes, authenticator apps, and security keys.
 </p>
 
@@ -1118,7 +1118,7 @@ Play Again
 
 }
 
-/* ===== GAME OVER ===== */
+/* GAME OVER */
 
 function gameOver(){
 
@@ -1144,14 +1144,14 @@ padding:20px;
 font-size:60px;
 color:red;
 ">
-💀 GAME OVER
+ GAME OVER
 </h1>
 
 <div style="
 font-size:120px;
 margin-top:20px;
 ">
-😭☠️
+
 </div>
 
 <h2 style="margin-top:20px;">
@@ -1167,7 +1167,7 @@ margin-top:20px;
 font-size:22px;
 line-height:1.6;
 ">
-🛡️ Keep practicing cybersecurity and 2FA safety to become stronger!
+Keep practicing cybersecurity and 2FA safety to become stronger!
 </p>
 
 <button class="btn start-btn"
